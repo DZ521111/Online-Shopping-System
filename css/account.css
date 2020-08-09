@@ -6,10 +6,10 @@
 .form-container {
     background-attachment: #fff;
     width: 300px;
-    height: 400px;
+    height: 450px;
     position: relative;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
     margin: auto;
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -74,4 +74,20 @@ form a {
     height: 3px;
     margin-top: 8px;
     transform: translateX(100px);
+}
+
+table {
+    margin-top: 50px;
+    text-align: center;
+    background: radial-gradient(#ffd6d6, yellow);
+    color: black;
+}
+
+#show th,
+#show td {
+    padding: 13px;
+}
+
+#btna td input {
+    width: 100%;
 }
