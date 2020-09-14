@@ -1,92 +1,178 @@
 <!doctype html>
-<html lang="en">
+<html>
 
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="bootstrap/bootstrap-4.5.2-dist/css/bootstrap.css">
     <link rel="stylesheet" href="bootstrap/bootstrap-4.5.2-dist/css/bootstrap-grid.css">
-    <link rel="stylesheet" href="bootstrap/bootstrap-4.5.2-dist/css/bootstrap-reboot.css">
     <link rel="stylesheet" href="bootstrap/bootstrap-4.5.2-dist/css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/offer.css">
-    <style>
-        body {
-            overflow: hidden;
-        }
-    </style>
-
+    <link rel="stylesheet" href="bootstrap/bootstrap-4.5.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap-4.5.2-dist/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap-4.5.2-dist/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/Account.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Login</title>
 </head>
 
 <body>
-    <div class="header">
-        <div class="container">
-            <div class="navbar">
-                <div class="logo">
-                    <a href="index.htm"><img src="images/Zshop.png" width="150px"></a>
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href="index.htm">Home</a></li>
-                        <li><a href="Cloths.htm">Cloths</a></li>
-                        <li><a href="Electronics.htm">Electronics</a></li>
-                        <li><a href="Accessories.htm">Accessories</a></li>
-                        <li><a href="Aboutus.htm">About us</a></li>
-                        <li><a href="Login.htm">Login</a></li>
-                        <li><a href="Registration.htm">Sign-Up</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <form align="center" style="width:50%;margin:auto;">
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputPassword1">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
-                <button type="submit" class="button" style="margin-bottom:10%;">Login</button>
-            </form>
-        </div>
-    </div>
 
-    <! footer >
-    <div class="footer container-fluid ">
-        <!--div class="container "-->
-        <div class="row ">
-            <div class="footer-col-1 ">
-                <img src="images/Zshop.png ">
-                <p>#some lines about website#</p>
-            </div>
-            <div class="footer-col-2 ">
-                <h2>Follow us</h2>
-                <ul>
-                    <li>Instagram</li>
-                    <li>Facebook</li>
-                    <li>Twitter</li>
-                    <li>Linked-in</li>
+    <!-- nav bar -->
+
+    <div class="container-fluid bg-black">
+        <nav class="container navbar navbar-expand-lg navbar-dark bg-black">
+            <a class="navbar-brand" href="index.htm">Z-SHOP</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  			</button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.htm">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Cloths
+        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="PartyWear.htm" target="_blank">Party-Wear</a>
+                            <a class="dropdown-item" href="BusinessWear.htm" target="_blank">Business-wear</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Accessories
+        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="SunGlasses.htm" target="_blank">Sun-Glasses</a>
+                            <a class="dropdown-item" href="Watches.htm" target="_blank">Watches</a>
+                            <a class="dropdown-item" href="Shoes.htm" target="_blank">Shoes</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Electronics
+        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="Laptops.htm" target="_blank">Laptops</a>
+                            <a class="dropdown-item" href="HeadPhones.htm" target="_blank">Head-Phones</a>
+                            <a class="dropdown-item" href="SmartWatches.htm" target="_blank">Smart Watches</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Account
+        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="Login.htm">Login</a>
+                            <a class="dropdown-item" href="Register.htm">Registration</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Log out</a>
+                    </li>
                 </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0 bg-orange border-0" type="submit">Search</button>
+                </form>
             </div>
-        </div>
+        </nav>
     </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js " integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN " crossorigin="anonymous "></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js " integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV " crossorigin="anonymous "></script>
+
+    <div class="signup-form">
+        <form action="/examples/actions/index.htm" method="post">
+            <h2>Login</h2>
+            <p class="hint-text">Sign in your self. For better experience</p>
+            <div class="form-group">
+                <input type="email" class="form-control" name="email" placeholder="Email" required="required">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" name="password" placeholder="Password" required="required">
+            </div>
+            <div class="form-group">
+                <label class="form-check-label"><input type="checkbox" required="required"> keep me sign-in</label>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-success btn-lg btn-block bg-orange" style="border:none;">Login</button>
+            </div>
+        </form>
+        <div class="text-center">Create Account? <a href="Login.htm">Sign Up</a></div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="page-footer font-small stylish-color-dark pt-14 bg-black">
+
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left">
+
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-4 mx-auto">
+
+                    <!-- Content -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-5 text-white">About Z-Shop</h5>
+                    <p class="text-white">“Whoever said that money can't buy happiness simply didn't know where to go shopping.”</p>
+
+                </div>
+                <!-- Grid column -->
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-3 mx-auto">
+
+                    <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4 text-white">For Social Media</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Linked-In</a>
+                        </li>
+                        <li>
+                            <a href="#!">Instagram</a>
+                        </li>
+                        <li>
+                            <a href="#!">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="#!">Twitter</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- Call to action -->
+        <ul class="list-unstyled list-inline text-center py-2">
+            <li class="list-inline-item">
+                <h5 class="mb-1 text-white">Register for free</h5>
+            </li>
+            <li class="list-inline-item">
+                <a href="Register.htm" class="btn btn-danger btn-rounded">Sign up!</a>
+            </li>
+        </ul>
+        <!-- Call to action -->
+
+        <!-- Social buttons -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3 text-white">© 2020 Copyright:
+            <a href="https://mdbootstrap.com/"> Zshop.com</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
 </body>
 
 </html>

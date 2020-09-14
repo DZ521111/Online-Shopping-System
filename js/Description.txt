@@ -1,1 +1,0 @@
-Add Java script files for some new functionality!
